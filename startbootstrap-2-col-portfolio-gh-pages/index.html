@@ -39,18 +39,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Bill Boughton</a>
+                <a class="navbar-brand" href="./index.html">Bill Boughton</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li class="about-me">
                         <a href="#">About</a>
                     </li>
-                    <li>
+                    <li class="portfolio">
                         <a href="#">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="contact-me">
                         <a href="#">Contact</a>
                     </li>
                     <li>
@@ -70,22 +70,30 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Bill Boughton
-                    <small>Full Stack Software Developer</small>
+                    <small>Full Stack Software Developer</small><br>
+                    <small>Denver, CO</small>
                 </h1>
+
             </div>
         </div>
 
+        <div class="about-me-section">
+
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">About Me
                 </h1>
                 <div class="about-me">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  I am an electrical engineer turned software developer. With over six years of B2B sales experience selling semiconductors and SaaS solutions, I have a big picture thought process of business impact plus a detailed focus that comes along with an engineering background. I have a passion for solving problems, using both technical knowledge and business experience to create the best solution possible.<br><br>
+                  Currently a student at Galvanize in a 6 month full-time course studying full stack web development, searching for a role as a software developer.
                 </div>
             </div>
         </div>
         <!-- /.row -->
 
+        <div class="portfolio-section"></div>
+        <br>
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Portfolio
@@ -112,8 +120,8 @@
                 <h4>
                   <a href="https://github.com/TresStooges" target="_blank"><img src="./images/github.png" style="width:30px;height:30px;">/GitHub</a>
                 </h4>
-                <p>The EnviroPi is a product that monitors a local environment using a Raspberry Pi B+ and sensors (camera, temp, motion, etc.) to perform logic based on outputs based on inputs, take photos, and record results to a database for later analysis.<br>
-                <i>Tech used: HTML, CSS, JavaScript, Node.js, AngularJS, Python/Python Flask, SQL, SQLAlchemy, Raspberry Pi, Digital Temp Sensor, Camera Module, Heroku, Firebase</i></p>
+                <p>The EnviroPi is a product that monitors a local environment using a Raspberry Pi B+ and sensors (camera, temp, motion, etc.) to perform logic based on outputs based on inputs, take photos, and record results to a database for later analysis.</p><br>
+                <i>Tech used: HTML, CSS, JavaScript, Node.js, AngularJS, Python/Python Flask, SQL, SQLAlchemy, Raspberry Pi, Digital Temp Sensor, Camera Module, Heroku, Firebase.</i>
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="https://getmesafe.herokuapp.com/" target="_blank">
@@ -128,8 +136,8 @@
                 <h4>
                   <a href="https://github.com/tagLion" target="_blank"><img src="./images/github.png" style="width:30px;height:30px;">/GitHub</a>
                 </h4>
-                <p>This website helps people who are feeling unsafe, find the nearest open location and provide directions. The application has the ability to notifiying pre-loaded emergency contats that you are feeling unsafe and will track your location until you select you are safe.<br>
-                <i>Tech used: JavaScript, ExpressJs, KnexJs, HTML, CSS, Google APIs, Twillio, Authorization, MailGun.</i></p>
+                <p>This website helps people who are feeling unsafe, find the nearest open location and provide directions. The application has the ability to notifiying pre-loaded emergency contats that you are feeling unsafe and will track your location until you select you are safe.</p><br>
+                <i>Tech used: JavaScript, ExpressJs, KnexJs, HTML, CSS, Google APIs, Twillio, Authorization, MailGun.</i>
             </div>
         </div>
         <!-- /.row -->
@@ -149,7 +157,8 @@
                 <h4>
                   <a href="https://github.com/BBoughton84/Q1_Individual_Project" target="_blank"><img src="./images/github.png" style="width:30px;height:30px;">/GitHub</a>
                 </h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>You can use this site to help find a position you are interested in, it will return the national average salary for that role, and as well as a link to a hiring page for open positions for that title in the city you specified. It will also return reviews of companies from an employee with the title you specified. Once the user clicks on a company that was returned, it will then display a direct feed from Twitter with any mention of that company.</p><br>
+                <i>Tech Used: HTML, CSS, JavaScript, jQuery, bootstrap, GlassDoor APIs, Twitter API.</i>
             </div>
             <div class="col-md-6 portfolio-item">
                 <a href="#">
@@ -197,7 +206,9 @@
         <!-- /.row -->
 
         <!-- <hr> -->
-        <div class="row">
+        <div class="contact-me-section"></div>
+        <br>
+        <div class="row contact-info-flex">
             <div class="col-lg-12">
                 <h1 class="page-header">Contact Me</h1>
             </div>
@@ -208,60 +219,13 @@
               <a href="https://github.com/BBoughton84" target="_blank"><p class="contact-items"><img src="./images/github.png" style="width:30px;height:30px;">GitHub</p></a>
             </div>
         </div>
+        <br>
 
 
-
-        <!-- <form action="takeform.php" method="POST">
-          <p>
-            <input
-            name="email"
-            size="64"
-            maxlength="64"/>
-            <b>Your</b> Email Address
-          </p>
-          <p>
-            <input
-            name="realname"
-            size="64"
-            maxlength="64"/>
-            Your Real Name (<i>so our reply won't get stuck in your spam folder</i>)
-          </p>
-          <p>
-            <input
-            name="subject"
-            size="64"
-            maxlength="64"/>
-            Subject Of Your Message
-          </p>
-          <p>
-            <i>Please enter the text of your message in the field that follows.</i>
-          </p>
-            <textarea
-            name="body"
-            rows="10"
-            cols="60">
-            </textarea>
-          <p>
-            <input type="submit" name="send" value="Send Your Message"/>
-          </p>
-        </form> -->
-
-        <!--  -->
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Bill Boughton 2017</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
-    </div>
-    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
