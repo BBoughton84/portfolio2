@@ -35,18 +35,47 @@ footer {
 
 .navbar-header {
   background-color: #818791;
+  color: #212732;
 }
 .navbar-fixed-top {
   background-color: #818791;
+  color: #212732;
 }
 .navbar-brand {
   background-color: #818791;
+  color: #212732;
 }
 .navbar-toggle {
   background-color: #818791;
+  color: #212732;
 }
 
 .contact-info-flex {
   display: flex;
   flex-direction: column;
+}
+.texter {
+  color: #212732;
+  text-decoration: none;
+}
+
+.texter:link  {
+  color: #212732;
+  text-decoration: none;
+}
+
+.texter:visited {
+  color: #212732;
+  text-decoration: none;
+}
+
+
+#last-shot {
+  color: #212732;
+  text-decoration: none;
+}
+
+#last-shot:hover {
+  color: #e6e6e6;
+  color: #ffffff;
 }
