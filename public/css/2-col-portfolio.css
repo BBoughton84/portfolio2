@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+
+/*=======================================
+        My CSS
+========================================*/
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-header {
+  background-color: #818791;
+  color: #212732;
+}
+.navbar-fixed-top {
+  background-color: #818791;
+  color: #212732;
+}
+.navbar-brand {
+  background-color: #818791;
+  color: #212732;
+}
+.navbar-toggle {
+  background-color: #818791;
+  color: #212732;
+}
+
+.contact-info-flex {
+  display: flex;
+  flex-direction: column;
+}
+.texter {
+  color: #212732;
+  text-decoration: none;
+}
+
+.texter:link  {
+  color: #212732;
+  text-decoration: none;
+}
+
+.texter:visited {
+  color: #212732;
+  text-decoration: none;
+}
+
+
+#last-shot {
+  color: #212732;
+  text-decoration: none;
+}
+
+#last-shot:hover {
+  color: #e6e6e6;
+  color: #ffffff;
+}
